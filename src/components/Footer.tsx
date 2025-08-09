@@ -140,7 +140,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Newsletter Section */}
+          {/* Newsletter Section
           <div className="bg-gray-50 rounded-3xl p-10 mb-16 border border-gray-200">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
@@ -182,7 +182,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Bottom Bar */}
           <div className="border-t border-gray-200 pt-10">
