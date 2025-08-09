@@ -1,4 +1,3 @@
-import React from "react";
 import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 import { useForm, ValidationError } from "@formspree/react";
 
@@ -7,7 +6,7 @@ const ComingSoon = () => {
 
   // Get the form ID from environment variable with fallback
   const formId = import.meta.env.VITE_FORMSPREE_FORM_ID || "demo";
-  
+
   // Use Formspree's hook - only initialize if we have a valid form ID
   const [state, handleSubmit] = useForm(formId);
 
@@ -88,7 +87,9 @@ const ComingSoon = () => {
               Join 10,000+ climate advocates waiting for early access
             </p>
 
-            {!import.meta.env.VITE_FORMSPREE_FORM_ID || import.meta.env.VITE_FORMSPREE_FORM_ID === "your_formspree_form_id_here" ? (
+            {!import.meta.env.VITE_FORMSPREE_FORM_ID ||
+            import.meta.env.VITE_FORMSPREE_FORM_ID ===
+              "your_formspree_form_id_here" ? (
               <div className="text-center py-8">
                 <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <svg
@@ -109,9 +110,12 @@ const ComingSoon = () => {
                   Email Signup Not Configured
                 </h4>
                 <p className="text-gray-600 text-sm">
-                  Please set up your Formspree form ID in the environment variables.
+                  Please set up your Formspree form ID in the environment
+                  variables.
                   <br />
-                  Create a <code className="bg-gray-200 px-1 rounded">.env</code> file and add your form ID.
+                  Create a{" "}
+                  <code className="bg-gray-200 px-1 rounded">.env</code> file
+                  and add your form ID.
                 </p>
               </div>
             ) : state.succeeded ? (
