@@ -23,7 +23,7 @@ const features = [
     title: "Community Leaderboards",
     description:
       "Compete with friends and youth across Africa in climate challenges, sustainable lifestyle goals, and environmental impact competitions.",
-    stats: "50K+ active users",
+    stats: "active young users",
     metric: "Daily challenges",
   },
   {

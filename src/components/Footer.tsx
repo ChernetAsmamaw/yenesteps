@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
 
               {/* App Store Badges */}
-              <div className="flex flex-col sm:flex-row gap-3">
+              {/* <div className="flex flex-col sm:flex-row gap-3">
                 <div className="flex items-center space-x-2 px-4 py-2 bg-gray-50 rounded-xl">
                   <span className="text-sm font-semibold text-gray-700">
                     4.8★
@@ -100,7 +100,7 @@ const Footer = () => {
                   </span>
                   <span className="text-xs text-gray-500">Downloads</span>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Product Links */}

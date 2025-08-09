@@ -25,7 +25,7 @@ const DownloadCTA = () => {
       title: "Community Impact",
       description:
         "Connect with climate-conscious peers across Africa and amplify your impact",
-      badge: "50K+ Users",
+      badge: "Young Users",
     },
   ];
 
@@ -67,9 +67,9 @@ const DownloadCTA = () => {
 
           {/* Subheading */}
           <p className="text-2xl font-body text-gray-600 mb-16 max-w-4xl mx-auto leading-relaxed">
-            Join over{" "}
+            Join our{" "}
             <span className="font-semibold text-emerald-600">
-              50,000 young Africans
+              many young African members
             </span>{" "}
             using AI to track their carbon footprint and make a real, measurable
             impact on climate change

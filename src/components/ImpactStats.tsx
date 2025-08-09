@@ -41,9 +41,9 @@ const ImpactStats = () => {
           >
             <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
               <div className="w-16 h-16 bg-white rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                <span className="text-primary font-bold text-lg">50K</span>
+                <span className="text-primary font-bold text-lg">Young</span>
               </div>
-              <div className="text-5xl font-bold text-white mb-2">50K+</div>
+              <div className="text-5xl font-bold text-white mb-2">Young</div>
               <h3 className="text-xl font-bold text-white mb-2">
                 Active Users
               </h3>
