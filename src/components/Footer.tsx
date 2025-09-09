@@ -66,9 +66,8 @@ const Footer = () => {
               </div>
 
               <p className="text-gray-600 mb-8 text-lg leading-relaxed max-w-md">
-                Empowering the next generation of African climate leaders
-                through AI-powered carbon tracking, community action, and
-                sustainable living insights.
+                Empowering African farmers through AI-powered crop monitoring,
+                community collaboration, and sustainable agriculture insights.
               </p>
 
               {/* Social Links */}
@@ -189,7 +188,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
               <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
                 <p className="text-gray-500 text-center md:text-left">
-                  © 2024 YeneSteps. All rights reserved.
+                  © 2025 YeneSteps. All rights reserved.
                 </p>
 
                 <div className="flex flex-wrap justify-center md:justify-start gap-6">

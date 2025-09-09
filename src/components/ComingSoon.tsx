@@ -72,19 +72,13 @@ const ComingSoon = () => {
             <span className="text-primary">Coming Soon</span>
           </h1>
 
-          <p className="text-xl text-gray-600 mb-12 leading-relaxed max-w-2xl mx-auto">
-            The revolutionary climate action app designed for African youth is
-            almost ready. Be the first to start your journey towards a
-            sustainable future.
-          </p>
-
           {/* Newsletter Signup */}
           <div className="bg-gray-50 rounded-3xl p-10 mb-16 border border-gray-200 max-w-2xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 text-dark">
               Get Notified When We Launch
             </h3>
             <p className="text-gray-600 mb-6">
-              Join 10,000+ climate advocates waiting for early access
+              Join thousands of farmers waiting for early access
             </p>
 
             {!import.meta.env.VITE_FORMSPREE_FORM_ID ||

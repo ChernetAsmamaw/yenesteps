@@ -8,24 +8,24 @@ const DownloadCTA = () => {
   const features = [
     {
       number: "01",
-      title: "Instant AI Analysis",
+      title: "Instant Crop Insights",
       description:
-        "Snap a photo and get immediate carbon footprint insights powered by advanced AI",
+        "Snap a photo and receive immediate analysis on plant health, pests, and growth recommendations.",
       badge: "AI-Powered",
     },
     {
       number: "02",
-      title: "Personalized Goals",
+      title: "Personalized Farming Targets",
       description:
-        "Set and track climate goals tailored specifically for African youth and culture",
+        "Track yield goals, irrigation schedules, and planting timelines tailored to your farm.",
       badge: "Custom Goals",
     },
     {
       number: "03",
-      title: "Community Impact",
+      title: "Farmer Network Impact",
       description:
-        "Connect with climate-conscious peers across Africa and amplify your impact",
-      badge: "Young Users",
+        "Connect with peers, share knowledge, and learn best practices from farmers across Africa.",
+      badge: "Community",
     },
   ];
 
@@ -58,7 +58,7 @@ const DownloadCTA = () => {
 
           {/* Main Heading */}
           <h2 className="text-6xl lg:text-7xl font-display font-black text-dark mb-8 leading-tight">
-            Start your climate journey <br className="hidden lg:block" />
+            Start optimizing your farm <br className="hidden lg:block" />
             <span className="text-green-gradient relative">
               today
               <div className="absolute -bottom-2 left-0 w-full h-2 bg-emerald-200 opacity-50 rounded-full"></div>
@@ -67,12 +67,11 @@ const DownloadCTA = () => {
 
           {/* Subheading */}
           <p className="text-2xl font-body text-gray-600 mb-16 max-w-4xl mx-auto leading-relaxed">
-            Join our{" "}
+            Join farmers across Africa using AI to{" "}
             <span className="font-semibold text-emerald-600">
-              many young African members
-            </span>{" "}
-            using AI to track their carbon footprint and make a real, measurable
-            impact on climate change
+              monitor crops, boost yields
+            </span>
+            , and adopt sustainable practices.
           </p>
 
           {/* App Store Buttons */}
@@ -145,11 +144,11 @@ const DownloadCTA = () => {
           {/* Final CTA */}
           <div className="mt-16 p-8 bg-gradient-to-br from-emerald-100 to-green-100 rounded-3xl border border-emerald-200">
             <h3 className="text-2xl font-display font-bold text-dark mb-4">
-              Ready to make a difference?
+              Ready to grow smarter?
             </h3>
             <p className="text-gray-600 font-body mb-6 max-w-2xl mx-auto">
-              Download YeneSteps now and join the movement of young Africans
-              leading the fight against climate change.
+              Download YeneSteps now and join the movement of African farmers
+              using AI to farm efficiently and sustainably.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

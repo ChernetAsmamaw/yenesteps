@@ -4,33 +4,33 @@ import { useIntersectionObserver } from "../hooks/useIntersectionObserver";
 const features = [
   {
     number: "01",
-    title: "Smart Photo Recognition",
+    title: "Smart Crop Recognition",
     description:
-      "Advanced AI instantly identifies products and calculates their carbon footprint using comprehensive African market data and global environmental standards.",
-    stats: "99.5% accuracy",
-    metric: "2.5M+ photos analyzed",
+      "AI identifies crop species, detects diseases, and provides region-specific insights using local agricultural data.",
+    stats: "98% accuracy",
+    metric: "Millions of crops analyzed",
   },
   {
     number: "02",
-    title: "Real-time Impact Tracking",
+    title: "Farm Dashboard",
     description:
-      "Monitor your carbon reduction in real-time with beautiful visualizations, progress insights, and personalized environmental impact dashboards.",
-    stats: "Live updates",
-    metric: "15% avg reduction",
+      "Track crop health, soil moisture, and productivity metrics with real-time dashboards and personalized recommendations.",
+    stats: "Real-time Monitoring",
+    metric: "Average 20% yield improvement",
   },
   {
     number: "03",
-    title: "Community Leaderboards",
+    title: "Farmer Network",
     description:
-      "Compete with friends and youth across Africa in climate challenges, sustainable lifestyle goals, and environmental impact competitions.",
-    stats: "active young users",
-    metric: "Daily challenges",
+      "Connect with other farmers, share techniques, and participate in challenges to improve agricultural outcomes together.",
+    stats: "Community Insights",
+    metric: "Daily community tips",
   },
   {
     number: "04",
-    title: "Personalized Recommendations",
+    title: "Localized Advice",
     description:
-      "Get culturally relevant, location-aware tips for reducing your environmental impact across different African regions and communities.",
+      "Get culturally relevant, climate- and soil-aware guidance for farming in different African regions.",
     stats: "Tailored for Africa",
     metric: "54 countries covered",
   },
@@ -38,17 +38,17 @@ const features = [
     number: "05",
     title: "Offline Capabilities",
     description:
-      "Continue tracking and learning even with limited internet connectivity across rural Africa. All essential features work without connection.",
+      "Access essential AI insights and tracking even with limited connectivity in rural areas.",
     stats: "Works offline",
     metric: "90% rural coverage",
   },
   {
     number: "06",
-    title: "Local Impact Data",
+    title: "Agricultural Insights",
     description:
-      "Access region-specific environmental data and see how your actions affect local ecosystems, wildlife, and community sustainability goals.",
-    stats: "Real local data",
-    metric: "1000+ data sources",
+      "Use region-specific farming data to make decisions that improve local crop yields and community sustainability.",
+    stats: "Local Data Integration",
+    metric: "1000+ local data sources",
   },
 ];
 
@@ -88,13 +88,12 @@ const Features = () => {
 
           <h2 className="text-5xl lg:text-6xl font-display font-black text-dark mb-8 leading-tight">
             Advanced Tools for <br className="hidden lg:block" />
-            <span className="text-green-gradient">Climate Action</span>
+            <span className="text-green-gradient">Smart Farming</span>
           </h2>
 
           <p className="text-xl font-body text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Cutting-edge AI technology designed specifically for African youth
-            to make climate action accessible, engaging, and impactful across
-            the continent
+            AI technology designed specifically for African farmers to optimize
+            productivity, reduce risks, and improve sustainability.
           </p>
         </div>
 
@@ -178,14 +177,14 @@ const Features = () => {
             <div className="relative z-10">
               <div className="max-w-4xl mx-auto">
                 <h3 className="text-4xl font-display font-bold text-dark mb-6">
-                  Experience the future of{" "}
-                  <span className="text-green-gradient">climate action</span>
+                  Experience the Future of{" "}
+                  <span className="text-green-gradient">Farming</span>
                 </h3>
 
                 <p className="text-xl font-body text-gray-600 mb-10 leading-relaxed">
-                  Join the movement of young Africans using AI to create a
-                  sustainable future. Download YeneSteps today and start making
-                  a measurable impact on climate change.
+                  Join thousands of African farmers using AI to increase
+                  productivity, reduce risks, and farm smarter. Download
+                  YeneSteps today.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

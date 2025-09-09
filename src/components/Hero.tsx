@@ -163,15 +163,15 @@ const Hero = () => {
             <div className="inline-flex items-center px-5 py-2 glass-green rounded-full border border-emerald-200">
               <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-emerald-700 font-display font-semibold text-sm tracking-wide">
-                AI-Powered Climate Action for Africa
+                AI-Powered Farming Assistant for Africa
               </span>
             </div>
 
             {/* Main Heading */}
             <h1 className="text-hero font-display font-black text-dark leading-tight tracking-tight">
-              Track your{" "}
+              Optimize your{" "}
               <span className="text-green-gradient relative">
-                carbon footprint
+                farm
                 <div className="absolute -bottom-2 left-0 w-full h-1 bg-green-gradient opacity-30 rounded-full"></div>
               </span>{" "}
               with AI
@@ -179,15 +179,16 @@ const Hero = () => {
 
             {/* Subheading */}
             <p className="text-xl font-body text-gray-600 leading-relaxed max-w-lg">
-              Snap a photo to get{" "}
+              Snap a photo, track{" "}
               <span className="font-semibold text-emerald-600">
-                instant impact analysis
-              </span>{" "}
-              and personalized climate tips designed for African youth.{" "}
+                crop health
+              </span>
+              , receive tailored farming tips, and get personalized insights to{" "}
               <span className="font-semibold text-emerald-600">
-                Join thousands
+                boost your yield
               </span>{" "}
-              making a difference.
+              and sustainability. Join thousands of farmers improving
+              productivity across Africa.
             </p>
           </div>
 

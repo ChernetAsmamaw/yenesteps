@@ -28,54 +28,50 @@ const useIntersectionObserver = <T extends HTMLElement>(
 const services = [
   {
     id: 1,
-    icon: " ",
-    title: "Photo Carbon Analysis",
+    icon: "🌱",
+    title: "Crop Health Analysis",
     description:
-      "Snap a photo of any product and get instant carbon footprint analysis powered by cutting-edge AI technology",
+      "Snap a photo of your crops and get instant AI analysis of plant health, disease detection, and pest warnings.",
     features: [
-      "99.5% Accuracy Rate",
-      "Instant Recognition",
-      "African Market Data",
+      "98% Accuracy Rate",
+      "Instant Identification",
+      "Region-Specific Insights",
     ],
     color: "from-emerald-400 to-green-500",
   },
   {
     id: 2,
-    icon: " ",
-    title: "Personalized Climate Tips",
+    icon: "💡",
+    title: "Personalized Farming Tips",
     description:
-      "Receive custom climate recommendations tailored to your location, lifestyle, and cultural context across Africa",
+      "Receive custom advice on irrigation, fertilization, and planting techniques based on your crops, soil type, and local climate.",
     features: [
-      "Location-Based Insights",
-      "Cultural Awareness",
+      "Location-Based Guidance",
+      "Crop-Specific Recommendations",
       "Actionable Steps",
     ],
     color: "from-green-400 to-emerald-500",
   },
   {
     id: 3,
-    icon: " ",
-    title: "Impact Tracking Dashboard",
+    icon: "📊",
+    title: "Farm Performance Dashboard",
     description:
-      "Monitor your environmental progress with beautiful visualizations and see how your actions contribute to global climate goals",
+      "Monitor your farm's progress with real-time insights on crop growth, yield forecasts, and resource usage.",
     features: [
       "Real-time Visualization",
-      "Goal Setting Tools",
-      "Progress Analytics",
+      "Goal Tracking",
+      "Productivity Analytics",
     ],
     color: "from-emerald-500 to-teal-500",
   },
   {
     id: 4,
-    icon: " ",
-    title: "Community Challenges",
+    icon: "👥",
+    title: "Community Farming Challenges",
     description:
-      "Join exciting youth-led climate challenges and compete with environmentally conscious peers across the African continent",
-    features: [
-      "Youth-Focused Challenges",
-      "Friendly Competition",
-      "Real Impact Rewards",
-    ],
+      "Join farmer competitions and share best practices, sustainable methods, and innovative techniques with peers across Africa.",
+    features: ["Peer Learning", "Friendly Competitions", "Practical Rewards"],
     color: "from-green-500 to-emerald-600",
   },
 ];
@@ -114,14 +110,16 @@ const Services = () => {
           </div>
 
           <h2 className="text-5xl lg:text-6xl font-display font-black text-dark mb-8 leading-tight">
-            AI-Powered Climate Solutions <br className="hidden lg:block" />
-            <span className="text-green-gradient">Built for Africa</span>
+            AI-Powered Farming Solutions <br className="hidden lg:block" />
+            <span className="text-green-gradient">
+              Built for African Farmers
+            </span>
           </h2>
 
           <p className="text-xl font-body text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Cutting-edge technology meets African innovation to create powerful
-            climate action tools designed specifically for the next generation
-            of environmental leaders
+            Smart technology meets African agriculture to provide actionable
+            insights, improve productivity, and empower farmers across the
+            continent.
           </p>
         </div>
 

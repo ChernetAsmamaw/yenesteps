@@ -1,17 +1,17 @@
 # YeneSteps
 
-**Empowering the next generation of African climate leaders through AI-powered carbon tracking**
+**AI-Powered Farming Assistant for African Farmers**
 
-A revolutionary climate action web application designed specifically for African youth, featuring AI-powered carbon footprint analysis, community engagement, and sustainable living insights.
+A revolutionary farming assistance web application designed specifically for African farmers, featuring AI-powered crop health analysis, community engagement, and sustainable agriculture insights.
 
 ## Features
 
-- **Smart Photo Recognition**: AI-powered product identification and carbon footprint calculation
-- **Real-time Impact Tracking**: Live carbon reduction monitoring with beautiful visualizations
-- **Community Leaderboards**: Climate challenges and sustainable lifestyle competitions
-- **Personalized Recommendations**: Culturally relevant, location-aware environmental tips
+- **Smart Crop Recognition**: AI-powered plant identification and health analysis
+- **Real-time Farm Monitoring**: Live crop health tracking with beautiful visualizations
+- **Community Farming Network**: Agricultural challenges and best practice sharing
+- **Personalized Farming Tips**: Culturally relevant, region-aware agricultural guidance
 - **Offline Capabilities**: Full functionality even with limited internet connectivity
-- **Local Impact Data**: Region-specific environmental data across Africa
+- **Local Agricultural Data**: Region-specific farming data across Africa
 
 ## Tech Stack
 
@@ -123,7 +123,7 @@ This project is licensed under the MIT License.
 
 ## About YeneSteps
 
-YeneSteps is dedicated to empowering African youth in the fight against climate change through technology, community, and actionable insights.
+YeneSteps is dedicated to empowering African farmers through technology, community, and actionable agricultural insights.
 
 ---
 
