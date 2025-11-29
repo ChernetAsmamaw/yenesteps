@@ -184,7 +184,7 @@ const Features = () => {
                 <p className="text-xl font-body text-gray-600 mb-10 leading-relaxed">
                   Join thousands of African farmers using AI to increase
                   productivity, reduce risks, and farm smarter. Download
-                  YeneSteps today.
+                  AwakiFarmer today.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -203,7 +203,7 @@ const Features = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>Try YeneSteps Free</span>
+                    <span>Try AwakiFarmer Free</span>
                   </button>
 
                   <button className="btn-outline-green px-10 py-4 rounded-2xl text-lg font-display font-semibold flex items-center justify-center space-x-2">

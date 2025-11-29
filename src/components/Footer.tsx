@@ -60,9 +60,11 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-8">
                 <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center">
-                  <span className="text-white font-bold text-lg">Y</span>
+                  <span className="text-white font-bold text-lg">A</span>
                 </div>
-                <span className="text-3xl font-bold text-dark">YeneSteps</span>
+                <span className="text-3xl font-bold text-dark">
+                  AwakiFarmer
+                </span>
               </div>
 
               <p className="text-gray-600 mb-8 text-lg leading-relaxed max-w-md">
@@ -148,7 +150,7 @@ const Footer = () => {
                 </h3>
                 <p className="text-gray-600 text-lg leading-relaxed">
                   Get the latest climate action tips, sustainability insights,
-                  and YeneSteps updates delivered directly to your inbox every
+                  and AwakiFarmer updates delivered directly to your inbox every
                   week.
                 </p>
               </div>
@@ -188,7 +190,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
               <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-8">
                 <p className="text-gray-500 text-center md:text-left">
-                  © 2025 YeneSteps. All rights reserved.
+                  © 2025 AwakiFarmer. All rights reserved.
                 </p>
 
                 <div className="flex flex-wrap justify-center md:justify-start gap-6">

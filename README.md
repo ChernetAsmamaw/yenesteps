@@ -1,4 +1,4 @@
-# YeneSteps
+# AwakiFarmer
 
 **AI-Powered Farming Assistant for African Farmers**
 
@@ -34,7 +34,7 @@ A revolutionary farming assistance web application designed specifically for Afr
 
    ```bash
    git clone https://github.com/ChernetAsmamaw/yenesteps.git
-   cd yenesteps
+   cd awakifarmer
    ```
 
 2. Install dependencies
@@ -121,10 +121,10 @@ Make sure to set `VITE_FORMSPREE_FORM_ID` in your deployment platform's environm
 
 This project is licensed under the MIT License.
 
-## About YeneSteps
+## About AwakiFarmer
 
-YeneSteps is dedicated to empowering African farmers through technology, community, and actionable agricultural insights.
+AwakiFarmer is dedicated to empowering African farmers through technology, community, and actionable agricultural insights.
 
 ---
 
-**Made with love in Africa** | [Contact](mailto:hello@yenesteps.com)
+**Made with love in Africa** | [Contact](mailto:hello@awakifarmer.com)

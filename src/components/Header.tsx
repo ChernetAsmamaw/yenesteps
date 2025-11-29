@@ -33,7 +33,7 @@ const Header: React.FC = () => {
             </div>
           </div>
           <span className="text-xl sm:text-2xl font-display font-bold text-dark">
-            Yene<span className="text-green-gradient">Steps</span>
+            Awaki<span className="text-green-gradient">Farmer</span>
           </span>
         </div>
 

@@ -67,7 +67,7 @@ const ComingSoon = () => {
 
           {/* Main Heading */}
           <h1 className="text-5xl lg:text-7xl font-bold text-dark mb-6 leading-tight">
-            YeneSteps is
+            AwakiFarmer is
             <br />
             <span className="text-primary">Coming Soon</span>
           </h1>
@@ -133,7 +133,7 @@ const ComingSoon = () => {
                   You're on the list!
                 </h4>
                 <p className="text-gray-600">
-                  We'll notify you as soon as YeneSteps is available.
+                  We'll notify you as soon as AwakiFarmer is available.
                 </p>
               </div>
             ) : (

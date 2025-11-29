@@ -52,7 +52,7 @@ const DownloadCTA = () => {
           <div className="inline-flex items-center px-6 py-3 bg-emerald-100 border border-emerald-200 rounded-full mb-10">
             <div className="w-3 h-3 bg-emerald-400 rounded-full animate-pulse mr-3"></div>
             <span className="text-emerald-700 font-display font-semibold text-sm tracking-wide">
-              Download YeneSteps Today
+              Download AwakiFarmer Today
             </span>
           </div>
 
@@ -147,7 +147,7 @@ const DownloadCTA = () => {
               Ready to grow smarter?
             </h3>
             <p className="text-gray-600 font-body mb-6 max-w-2xl mx-auto">
-              Download YeneSteps now and join the movement of African farmers
+              Download AwakiFarmer now and join the movement of African farmers
               using AI to farm efficiently and sustainably.
             </p>
 
